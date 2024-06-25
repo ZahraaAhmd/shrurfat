@@ -1,0 +1,289 @@
+/*** home page sections styles ****/
+.SH {
+    &-hero {
+        .carousel {
+            .carousel-indicators {
+                max-width: 1170px;
+                margin: 0 0 10px auto;
+                justify-content: flex-start;
+
+                [data-bs-target] {
+                    width: auto;
+                    height: auto;
+                    opacity: 1;
+                    box-sizing: border-box;
+                    text-indent: initial;
+                    border: 0;
+                    margin: 0 10px;
+                    border-radius: 4px;
+
+                    img {
+                        width: 80px;
+                        height: 70px;
+                        border: 2px solid #fff;
+                        border-radius: 4px;
+                        transition: all 300ms ease;
+                        object-fit: cover;
+                    }
+                }
+
+                .active {
+                    img {
+                        border-color: $gold;
+                    }
+                }
+            }
+
+            .carousel-item {
+                height: 100vh;
+                background-size: cover !important;
+                background-position: center center !important;
+                position: relative;
+
+                &::before {
+                    content: "";
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background: rgba(#222, 0.5);
+                }
+            }
+
+            .carousel-control-prev,
+            .carousel-control-next {
+                opacity: 1;
+                width: auto;
+                height: auto;
+                padding: 0;
+                align-items: flex-end;
+            }
+
+            .carousel-control-next-icon,
+            .carousel-control-prev-icon {
+                background: transparent;
+                width: 60px;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: $gold;
+                border-radius: 0;
+                transition: all 0.3s ease-in-out;
+
+                i {
+                    font-size: 25px;
+                }
+
+                &:hover {
+                    background: $dark-blue;
+                }
+
+            }
+
+            .carousel-control-prev {
+                left: 0;
+                right: auto;
+            }
+
+            .carousel-control-next {
+                left: 60px;
+                right: auto;
+
+                .carousel-control-next-icon {
+                    border-left: 1px solid rgba(#fff, 0.3);
+                }
+            }
+        }
+    }
+
+    &-about {
+        position: relative;
+        background: #f7f5f2;
+        padding: 100px 0 80px 0;
+        font-size: 18px;
+        line-height: 165%;
+
+        .container {
+            position: relative;
+            z-index: 1;
+        }
+
+        &::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-image: url("../images/about-bg.jpeg");
+            background-size: contain;
+            opacity: .5;
+            transition: background .3s, border-radius .3s, opacity .3s;
+        }
+
+        .SH-title {
+            margin-bottom: 36px;
+        }
+
+        .btn {
+            width: 100%;
+            max-width: 120px;
+        }
+
+        img {
+            border-radius: 10px;
+        }
+    }
+
+    &-featured-projects {
+        padding: 90px 0 60px;
+
+        .project-box {
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            &.small-box {
+                height: 255px;
+            }
+
+            &.big-box {
+                height: calc(100% - 48px)
+            }
+        }
+
+        .btn {
+            width: 100%;
+            max-width: 120px;
+        }
+    }
+
+    &-activity {
+        background: url("../images/img8.webp") center center;
+        background-attachment: fixed;
+        padding: 90px 0;
+        position: relative;
+
+        &::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgba(#222, 0.7);
+        }
+
+        .container {
+            position: relative;
+            z-index: 1
+        }
+
+        .row {
+            margin-top: 80px;
+        }
+
+        .SH-subtitle {
+
+            color: rgba(#fff, 0.7);
+        }
+
+        i {
+            color: $gold;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+        &#activity2{
+            padding:60px 0;
+            background:$dark-blue;
+            color: #fff;
+
+            &::before{
+                width: 40%;
+                background: url("../images/imag2.avif") no-repeat center;
+                background-size: cover;
+            }
+            .activity-box{
+                text-align: initial;
+                display: flex;
+                margin-bottom: 30px;
+                .box-icon{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 65px;
+                    height: 65px;
+                    border-radius: 50%;
+                    background:rgba($light-blue,1);
+                    i{
+                        color: #fff;
+                        font-size: 25px;
+                    }
+                }
+                .content{
+                    flex: 1 0 0;
+                    padding-right: 20px;
+                }
+            }
+        }
+    }
+
+    &-partners {
+        padding: 80px 0;
+
+        .row {
+            max-width: 800px;
+            margin: 60px auto 0 auto;
+        }
+
+        .logo-box {}
+        .logos-slider{
+            .slick-slide{
+                padding:10px
+            }
+            .logo-box {
+                box-shadow: rgba(99, 99, 99, 0.05) 0px 2px 8px 0px;
+            }
+        }
+    }
+
+    &-testimonials {
+        padding: 80px 0;
+
+        .testimonial-slider {
+            margin-top: 40px;
+
+            .slick-slide {
+                padding: 40px 16px
+            }
+
+            .slick-dots {
+                li {
+                    button {
+                        width: 16px;
+                        height: 16px;
+                        background: $dark-blue;
+                        border-radius: 50%;
+                        transition: all 0.3s ease-in-out;
+
+                    }
+
+                    &.slick-active {
+                        button {
+                            background: $gold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

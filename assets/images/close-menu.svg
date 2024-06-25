@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 106 106" width="50" height="50">
+	<title>close-menu</title>
+	<defs>
+		<image  width="106" height="106" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABqAQMAAABu71bUAAAAAXNSR0IB2cksfwAAAAZQTFRFAAAA////pdmf3QAAAAJ0Uk5TAP9bkSK1AAABmklEQVR4nG1VwW0CQRAbAxI8InEVBEpIB6Ss8AJ+aYcOQgcpIaQCkPIgEsflbsde6awggW6W3fGOx+PDtI36efnEfLuv4ds7lsfXGt5nWJ3WitBOsDk2Cqd3YLddKJzfDujamcLl5YSumyhcfZ2w20Ph5uOA/ivg/h/0OwTcn8PyciYwHu0M89u1EezvAsOPYK8Nhi2CPa8RFXhIiqjAAySiAg/riAo8nEIIuORECLggIgRclhECLocQAi4pEQIugAgBl1WEgMsZMAczggjEgx5yEdrGI0qSCSGIhIMukJeBrpdXhTjLQsDSWCZYOEkAaSFFIGmsA6SUVaryLjkAedkkQ0jWvp+TPySnP0/JLpLxiOQ+Ezwi2JnsVkT2DexlZFfBTvMB1AEVAaqEegE1RDX9G9pmS2VAdo3xJa0EK9DKN3KMOiPWaB83xVpmDbV2mxhMKiYkk9lYhCZRE7DJ28Rvo2GDY2M1HjobSRtYG2cbdrMCMwqzkbHJmAWZQZl9mbmZ9Zkxmm2aqZrlmiGbXZuZm9Xbi2D8mvgDQ5dTekh/Rm0AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

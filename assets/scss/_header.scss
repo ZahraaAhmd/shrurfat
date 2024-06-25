@@ -1,0 +1,145 @@
+/*** header style ***/
+.SH-header {
+    transition: all 0.3s ease-in-out;
+
+    .top-info {
+        border-bottom: 1px solid rgba(206, 206, 206, 0.3);
+        font-size: 13px;
+        font-family: "Roboto", sans-serif;
+        transition: all 0.3s ease-in-out;
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            list-style-type: none;
+            display: flex;
+
+            li {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-right: 1px solid rgba(206, 206, 206, 0.3);
+                padding: 0px 13px !important;
+                height: 40px;
+                color: #fff;
+
+                &:last-child {
+                    border-left: 1px solid rgba(206, 206, 206, 0.3);
+                }
+
+                a {
+                    color: #fff;
+
+                    &:hover {
+                        color: $gold;
+                    }
+                }
+            }
+        }
+    }
+
+    .navbar {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        transition: all 0.3s ease-in-out;
+        transition: height 0.3s ease;
+        @media(min-width:992px){
+            position: relative;
+        transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        }
+
+        .navbar-brand {
+            img {
+                max-width: 200px;
+                transition: all 0.3s ease-in-out;
+            }
+
+            .logo {
+                display: none;
+            }
+        }
+
+        .navbar-nav {
+            .nav-link {
+                padding: 5px 15px;
+                color: #fff;
+                font-family: "Cairo", sans-serif;
+                font-weight: 500;
+
+                &:hover {
+                    color: $gold;
+                }
+            }
+
+            .nav-item:last-child .nav-link {
+                padding-left: 0;
+            }
+        }
+    }
+
+    &.inner-header,
+    &.header-sticky {
+        .top-info {
+            background: #01131F;
+        }
+
+        .navbar {
+            background: rgba(#fff, 1);
+
+            .navbar-brand {
+                img {
+                    max-width: 150px;
+                }
+
+                .logo {
+                    display: block;
+                }
+
+                .white-logo {
+                    display: none;
+                }
+            }
+
+            .navbar-nav {
+                .nav-link {
+                    color: $dark-blue;
+
+                    &:hover {
+                        color: $gold;
+                    }
+                }
+            }
+        }
+    }
+
+    &.inner-header:not(.header-sticky){
+        border-bottom:1px solid #f8f8f8
+    }
+    &.header-sticky {
+
+        //transform: translateY(-41px);
+        .top-info {
+
+            /* height: 0;
+            opacity: 0;
+            visibility: hidden;
+            border: 0;*/
+            ul {
+                li {
+                    height: 35px;
+                }
+            }
+        }
+
+        .navbar {
+            padding: 15px 0;
+            box-shadow: 3px 1px 20px 0 rgba(0, 110, 225, 0.08);
+
+
+        }
+    }
+}

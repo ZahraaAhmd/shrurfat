@@ -1,0 +1,49 @@
+/***** footer style ****/
+.company-info{
+    background: $gold;
+    
+    padding:40px 0;
+    color: #fff;
+    font-size: 18px;
+    line-height: 155%;
+    i{
+        font-size: 45px;
+    }
+    span{
+        display: block;
+    }
+}
+
+footer{
+    background:#01131f;
+    color: #fff;
+    .top-part{
+        padding:60px 15px 40px 15px
+    }
+    .bottom-part{
+        background:#000a10;
+        padding:20px 0 16px 0;
+        .text-gold{
+            color: $gold;
+            margin:0 10px
+        }
+    }
+    a{
+        color: #fff;
+        &:hover{
+            color: $gold;
+        }
+    }
+    .footer-title{
+        color: $gold;
+        margin-bottom: 24px;
+    }
+    ul{
+        list-style: none;
+        list-style-type: none;
+        padding:0;
+        li{
+            margin-bottom: 10px;
+        }
+    }
+}

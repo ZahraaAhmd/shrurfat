@@ -1,0 +1,313 @@
+/*** media query sttyles ***/
+@media(max-width:1169.98px) {
+    .SH-featured-projects .project-box.big-box {
+        height: calc(100% - 12px);
+    }
+}
+
+@media(max-width:991.98px) {
+    .SH-header {
+        .navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+
+            .navbar-brand {
+                img {
+                    max-width: 130px;
+                }
+            }
+
+            .navbar-toggler {
+                background: $gold;
+                outline: none;
+                box-shadow: none;
+                padding: 6px 10px;
+
+                .navbar-toggler-icon {
+                    width: 1em;
+                    height: 1em;
+                    background: url("../images/open-menu.svg");
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100%;
+                }
+
+                &:not(.collapsed) {
+
+                    .navbar-toggler-icon {
+                        background: url("../images/close-menu.svg");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: 100%;
+                    }
+                }
+            }
+
+            .navbar-collapse {
+                background: $dark-blue;
+                position: fixed;
+                right: 0;
+                top: 0;
+                height: 100%;
+                width: 280px;
+                padding: 40px 20px;
+                transform: translateX(280px);
+                transition: all 0.3s ease-in-out;
+
+                &.show {
+                    transform: translateX(0px);
+                }
+
+            }
+
+            .navbar-nav .nav-link {
+                width: 100%;
+                padding: 10px 0;
+                color: #fff !important;
+            }
+        }
+
+        &.inner-header .navbar .navbar-brand img,
+        &.header-sticky .navbar .navbar-brand img {
+            max-width: 130px;
+        }
+    }
+
+    .SH {
+        &-hero {
+            .carousel {
+
+                .carousel-control-next,
+                .carousel-control-prev {
+                    top: 50%;
+                    bottom: auto;
+                    opacity: 0.7;
+                }
+
+                .carousel-control-next-icon,
+                .carousel-control-prev-icon {
+                    width: 40px;
+                    height: 40px;
+                    border: 0 !important;
+                    border-radius: 4px;
+
+                    //opacity: 0.6;
+                    i {
+                        font-size: 16px;
+                    }
+
+                }
+
+                .carousel-control-next {
+                    right: 15px;
+                    left: auto;
+                }
+
+                .carousel-control-prev {
+                    left: 15px;
+                }
+
+                .carousel-indicators {
+                    justify-content: center;
+
+                    [data-bs-target] {
+                        margin: 0 4px;
+
+                        img {
+                            width: 50px;
+                            height: 50px;
+                        }
+                    }
+                }
+
+                .carousel-item {
+                    max-height: 450px;
+                }
+            }
+        }
+
+        &-featured-projects {
+            .project-box.big-box {
+                height: 100%;
+            }
+
+            .btn {
+                margin-top: 16px;
+            }
+        }
+
+        &-activity#activity2 {
+            background: $gold;
+
+            &::before {
+                display: none;
+            }
+
+            .activity-box {
+                .box-icon {
+                    background: #d7b574;
+                }
+            }
+             .row{
+                margin-top: 0;
+             }
+        }
+        &-features{
+            padding-bottom: 0;
+        }
+        &-team{
+            .blur-shadow-image{
+                .shadow-lg{
+                   box-shadow: none !important; 
+                }
+                
+            }
+        }
+    }
+
+    .company-info {
+        text-align: center;
+
+        .d-flex {
+            flex-direction: column;
+        }
+
+        i {
+            margin-bottom: 10px;
+        }
+
+        span {
+            // display: inline-block;
+            font-weight: 600;
+        }
+    }
+}
+
+@media(max-width:767.98px) {
+    .SH-title {
+        font-size: 26px;
+
+        small {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .SH {
+        &-about {
+            padding: 60px 0 60px 0;
+            font-size: 16px;
+        }
+
+        &-testimonials {
+            padding: 60px 0;
+        }
+        &-about-inner {
+            padding-bottom: 0;
+            .statistics{
+                margin: -50px auto 60px auto;
+                font-size: 14px;
+                padding: 16px;
+                ul{
+                    li{
+                        padding: 0 30px;
+                        h3{
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+        }
+        &-values{
+            .row:not(:last-child){
+                margin-bottom:24px;
+            }
+        }
+    }
+
+    .company-info {
+        font-size: 14px;
+        padding: 30px 0;
+
+        i {
+            font-size: 30px;
+        }
+    }
+
+    footer {
+        .col-12:not(:last-child) {
+            margin-bottom: 24px;
+        }
+
+        .social {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 0;
+
+            li {
+                margin-bottom: 0;
+            }
+
+            span {
+                display: none;
+            }
+        }
+
+        .bottom-part {
+            text-align: center;
+        }
+    }
+}
+
+@media(max-width:575.98px) {
+    body {
+        font-size: 15px;
+    }
+
+    .SH-header .top-info,
+    .company-info,
+    .SH-hero .carousel .carousel-indicators {
+        display: none;
+    }
+
+    footer .bottom-part {
+        font-size: 14px;
+    }
+    .value-box h3 img {
+        max-height: 35px;
+    }
+    .SH-activity#activity2 {
+        .activity-box {
+          .box-icon {
+            width: 45px;
+            height: 45px;
+
+            i {
+                font-size: 18px;
+            }
+        }  
+        .content{
+            padding-right: 15px;
+        }
+        }
+    }
+    .SH-about-inner {
+        .col-4{
+            &:nth-child(1) {
+                .gallary-img{
+                    height: 250px;
+                }
+            }
+            &:nth-child(2) {
+                .gallary-img{
+                    height:300px;
+                }
+            }
+            &:nth-child(3) {
+                .gallary-img{
+                    height: 350px;
+                }
+            }
+        }
+    }
+}

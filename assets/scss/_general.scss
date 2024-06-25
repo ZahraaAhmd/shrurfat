@@ -1,0 +1,148 @@
+body {
+    font-family: "Tajawal", sans-serif;
+    color: #000;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 15px
+}
+
+/*** texts styles ****/
+h1,
+h2,
+h3,
+h4,
+.SH-title,
+.footer-title {
+    // font-family: "Noto Sans Arabic", sans-serif;
+    font-family: "Cairo", sans-serif;
+}
+
+.footer-title {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.SH {
+    &-title {
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 100%;
+
+        .small,
+        small {
+            font-size: 18px;
+            display: block;
+            color: $gold;
+            font-weight: 500;
+        }
+    }
+
+    &-subtitle {
+        color: $txt-gray;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+/**** button styles ***/
+.btn {
+    border-radius: 4px;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+
+    &-icon {
+        justify-content: space-between;
+    }
+
+    &-warning {
+        background: $gold;
+        border-color: $gold;
+        color: #fff;
+
+
+        i {
+            margin-right: 10px;
+            font-size: 14px;
+            margin-top: 3px;
+        }
+
+        &:hover {
+            background: $dark-blue;
+            border-color: $dark-blue;
+            color: #fff;
+        }
+    }
+    &-outline-warning {
+        background: transparent;
+        border-color: $gold;
+        color: $dark-blue;
+
+
+        i {
+            margin-left:6px;
+            font-size: 14px;
+            margin-top: 3px;
+        }
+
+        &:hover {
+            background: $dark-blue;
+            border-color: $dark-blue;
+            color: #fff;
+        }
+    }
+    &-secondary {
+        background: $dark-blue;
+        border-color: $dark-blue;
+        color: #fff;
+
+        &:hover {
+            background: $gold;
+            border-color: $gold;
+        }
+    }
+
+    &-white {
+        background: #fff;
+        border-color: #fff;
+        color: $dark-blue;
+
+        &:hover {
+            background: $dark-blue;
+            border-color: $dark-blue;
+            color: #fff;
+        }
+    }
+
+}
+
+/****/
+.text-center {
+    .SH-subtitle {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
+
+
+/**** backgrounds style *****/
+.bg {
+    &-light-gray {
+        background: #f8f8f8;
+    }
+}
