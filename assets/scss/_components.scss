@@ -1,3 +1,53 @@
+/*** preload style ****/
+#preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  z-index: 3333;
+  background: #fff;
+    -webkit-box-reflect: below -12px linear-gradient(transparent,rgba(0,0,0,0.2));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wavy{
+    position: relative;
+    -webkit-box-reflect: below -12px linear-gradient(transparent,rgba(0,0,0,0.2));
+    
+}
+.wavy span{
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-size: 2em;
+    margin-top: 50%;
+    text-transform: uppercase;
+ 
+    animation: animate 1s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes animate {
+    0%{
+        transform: translateY(0px);
+      color: yellow;
+         opacity: 0.2;
+    }
+
+    20%{
+        transform: translateY(-20px);
+        color:red;
+      opacity: 0.3;
+    }
+
+    40%,100%{
+        transform: translateY(0px);
+    
+    }
+}
+
 /**** project-box style ***/
 .project-box {
     position: relative;
