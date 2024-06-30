@@ -1,6 +1,6 @@
  <?php
  $photos= array("img1.jpg","img1.webp","img4.jpg","img5.jpg","img6.jpg","img7.jpg","img8.webp","img9.webp","img10.webp","img11.webp","img13.webp","img16.webp");
- $counter=0;
+ $counter=1;
  
  ?>
  <!--start section projects -->
@@ -52,187 +52,26 @@
                  </select>
              </div>
          </div>
-         <div class="row g-3 mb-3">
-                <div class="col-md-7 col-sm-6 col-12">
-                    <div class="project-box">
-                        <div class="tag ailable">متاح</div>
-                        <div class="tag feature">مميز</div>
-                        <img src="assets/images/img1.jpg">
-                        <div class="project-content">
-                            <h3>اسم المشروع</h3>
-                            <ul class="mb-3">
-                                <li>فيلا</li>
-                                <li>جده</li>
-                                <li>عدد الوحدات : <span>324</span></li>
-                            </ul>
-                            <div class="row g-3">
-                                <div class="col">
-                                    <a href="project-details.php" class="btn btn-warning w-100">تفاصيل المشروع</a>
-                                </div>
-                                <div class="col">
-                                    <a href="project-details.php" class="btn btn-warning w-100">تحديثات المشروع</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5 col-sm-6 col-12">
-                    <div class="project-box">
-                        <img src="assets/images/img3.jpg">
-                        <div class="project-content">
-                            <h3>اسم المشروع</h3>
-                            <ul>
-                                <li>فيلا</li>
-                                <li>جده</li>
-                            </ul>
-                            <div class="mb-3">عدد الوحدات : <span>324</span></div>
-                            <div class="row">
-                                <div class="col">
-                                    <a href="project-details.php" class="btn btn-warning w-100">تفاصيل المشروع</a>
-                                </div>
-                                <div class="col">
-                                    <a href="project-details.php" class="btn btn-warning w-100">تحديثات المشروع</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-3 mb-3">
-                <div class="col-md-5 col-sm-6 col-12">
-                    <div class="project-box">
-                        <img src="assets/images/img4.jpg">
-                        <div class="project-content">
-                            <h3>اسم المشروع</h3>
-                            <ul class="mb-3">
-                                <li>فيلا</li>
-                                <li>جده</li>
-                                <li>عدد الوحدات : <span>324</span></li>
-                            </ul>
-                            <div class="row">
-                                <div class="col">
-                                    <a href="project-details.php" class="btn btn-warning w-100">تفاصيل المشروع</a>
-                                </div>
-                                <div class="col">
-                                    <a href="project-details.php" class="btn btn-warning w-100">تحديثات المشروع</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-7 col-sm-6 col-12">
-                    <div class="project-box">
-                        <img src="assets/images/img5.jpg">
-                        <div class="project-content">
-                            <h3>اسم المشروع</h3>
-                            <ul>
-                                <li>فيلا</li>
-                                <li>جده</li>
-                            </ul>
-                            <div class="mb-3">عدد الوحدات : <span>324</span></div>
-                            <div class="row">
-                                <div class="col">
-                                    <a href="project-details.php" class="btn btn-warning w-100">تفاصيل المشروع</a>
-                                </div>
-                                <div class="col">
-                                    <a href="project-details.php" class="btn btn-warning w-100">تحديثات المشروع</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-              
-            </div>
-            <div class="row g-3 mb-3">
-                <div class="col-md-4 col-sm-6 col-12">
-                    <div class="project-box">
-                        <img src="assets/images/img4.jpg">
-                        <div class="project-content">
-                            <h3>اسم المشروع</h3>
-                            <ul class="mb-3">
-                                <li>فيلا</li>
-                                <li>جده</li>
-                                <li>عدد الوحدات : <span>324</span></li>
-                            </ul>
-                            <div class="row">
-                                <div class="col">
-                                    <a href="project-details.php" class="btn btn-warning w-100">تفاصيل المشروع</a>
-                                </div>
-                                <div class="col">
-                                    <a href="project-details.php" class="btn btn-warning w-100">تحديثات المشروع</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-12">
-                    <div class="project-box">
-                        <img src="assets/images/img5.jpg">
-                        <div class="project-content">
-                            <h3>اسم المشروع</h3>
-                            <ul>
-                                <li>فيلا</li>
-                                <li>جده</li>
-                            </ul>
-                            <div class="mb-3">عدد الوحدات : <span>324</span></div>
-                            <div class="row">
-                                <div class="col">
-                                    <a href="project-details.php" class="btn btn-warning w-100">تفاصيل المشروع</a>
-                                </div>
-                                <div class="col">
-                                    <a href="project-details.php" class="btn btn-warning w-100">تحديثات المشروع</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-12">
-                    <div class="project-box">
-                        <img src="assets/images/img5.jpg">
-                        <div class="project-content">
-                            <h3>اسم المشروع</h3>
-                            <ul>
-                                <li>فيلا</li>
-                                <li>جده</li>
-                            </ul>
-                            <div class="mb-3">عدد الوحدات : <span>324</span></div>
-                            <div class="row">
-                                <div class="col">
-                                    <a href="project-details.php" class="btn btn-warning w-100">تفاصيل المشروع</a>
-                                </div>
-                                <div class="col">
-                                    <a href="project-details.php" class="btn btn-warning w-100">تحديثات المشروع</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-         <div class="row g-3 mb-5">
-             <?php foreach($photos as $k=>$p): ?>
-             <div class="col-lg-3 col-md-4 col-sm-6 col-12">
 
+
+
+         <?php  for($row=0;$row<6;$row++){  ?>
+         <div class="row g-3 mb-3 projects-row">
+             <div class="col-md-7 col-sm-6 col-12">
                  <div class="project-box">
-                     <?php
-                    if($counter===0){
-                        ?>
-
+                     <?php if($row === 0){ ?>
                      <div class="tag ailable">متاح</div>
                      <div class="tag feature">مميز</div>
-
-                    <?php
-                    $counter++;
-                 } ?>
-
-                     <img src="assets/images/<?php echo $p;?>">
+                     <?php } ?>
+                     <img src="assets/images/<?php echo $photos[$row];?>">
                      <div class="project-content">
                          <h3>اسم المشروع</h3>
-                         <ul>
+                         <ul class="mb-3">
                              <li>فيلا</li>
                              <li>جده</li>
+                             <li>عدد الوحدات : <span>324</span></li>
                          </ul>
-                         <div class="mb-2">عدد الوحدات : <span>324</span></div>
-                         <div class="row g-2">
+                         <div class="row g-3">
                              <div class="col">
                                  <a href="project-details.php" class="btn btn-warning w-100">تفاصيل المشروع</a>
                              </div>
@@ -243,12 +82,31 @@
                      </div>
                  </div>
              </div>
-             <?php 
-             
-            endforeach; ?>
+             <div class="col-md-5 col-sm-6 col-12">
+                 <div class="project-box">
+                     <img src="assets/images/<?php echo $photos[$counter];?>">
+                     <div class="project-content">
+                         <h3>اسم المشروع</h3>
+                         <ul class="mb-3">
+                             <li>فيلا</li>
+                             <li>جده</li>
+                             <li>عدد الوحدات : <span>324</span></li>
+                         </ul>
+                         <div class="row">
+                             <div class="col">
+                                 <a href="project-details.php" class="btn btn-warning w-100">تفاصيل المشروع</a>
+                             </div>
+                             <div class="col">
+                                 <a href="project-details.php" class="btn btn-warning w-100">تحديثات المشروع</a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
          </div>
-         <nav aria-label="Page navigation example">
-             <ul class="pagination justify-content-center">
+         <?php  $counter+=2; } ?>
+         <nav aria-label="Page navigation example" class="pt-4">
+             <ul class="pagination justify-content-center ">
                  <li class="page-item disabled">
                      <a class="page-link"><i class="fa-solid fa-chevron-right"></i></a>
                  </li>

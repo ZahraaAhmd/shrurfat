@@ -1001,6 +1001,11 @@ textarea.form-control {
   padding-bottom: 100px;
   background: rgba(250, 250, 250, 0.7);
 }
+@media (min-width: 768px) {
+  .SH-projects .projects-row:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+}
 .SH-projects .page-title {
   font-weight: 600;
   font-size: 22px;
