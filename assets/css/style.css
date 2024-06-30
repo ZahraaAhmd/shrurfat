@@ -514,7 +514,7 @@ textarea.form-control {
   }
 }
 .SH-header .navbar .navbar-brand img {
-  max-height: 80px;
+  max-height: 60px;
   transition: all 0.3s ease-in-out;
 }
 .SH-header .navbar .navbar-brand .logo {
