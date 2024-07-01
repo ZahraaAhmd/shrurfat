@@ -36,7 +36,7 @@
                 </div>
             </div>
         </div>
-        <div class="row g-md-5 g-4 pt-3 align-items-center">
+        <!--<div class="row g-md-5 g-4 pt-3 align-items-center">
             <div class="col-lg-6 col-md-5 col-12">
                 <img src="assets/images/img7.jpg" class="box-img">
             </div>
@@ -51,6 +51,6 @@
                     </ul>
                 </div>
             </div>
-        </div>
+        </div>-->
     </div>
 </section>

@@ -110,8 +110,10 @@ $('.project-slider').slick({
   });
    
 $(document).ready(function() {
+    $(".SH-call-us .call-form-box").hide();
     $(".toggle-form").click(function(){
-        $(".SH-call-us").toggleClass("opened")
+        $(".SH-call-us").toggleClass("opened");
+        $(".SH-call-us .call-form-box").toggle();
     });
     $(".sticky-bar").css("opacity",0);
 	$(window).bind('scroll', function() {

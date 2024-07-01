@@ -7,7 +7,7 @@
                     <i class="fa-solid fa-mobile-screen-button"></i>
                     <div class="ms-3">
                         <span>الرقم الموحد:</span>
-                        92×××××××××
+                        <a href="tel:920026466">920026466</a>
                     </div>
                 </div>
             </div>
@@ -16,7 +16,9 @@
                     <i class="fa-regular fa-map"></i>
                     <div class="ms-3">
                         <span>موقع الشركة:</span>
-                        جدة-طريق المدينة المنورة
+                        <a href="https://maps.app.goo.gl/Eue5A3fbpr4uimj37" target="_blank">
+                            جدة-طريق المدينة المنورة
+                        </a>
                     </div>
                 </div>
             </div>
@@ -25,7 +27,7 @@
                     <i class="fa-solid fa-calendar-days"></i>
                     <div class="ms-3">
                         <span> تسعدنا زيارتك:</span>
-                        السبت - الخميس: 10:00 - 18:00
+                        السبت - الخميس
                     </div>
                 </div>
             </div>

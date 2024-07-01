@@ -200,7 +200,7 @@ h4,
   position: absolute;
   left: 0;
   top: 0;
-  background: rgba(29, 41, 62, 0.35);
+  background: rgba(29, 41, 62, 0.45);
   z-index: 0;
   transition: all 0.3s ease-in-out;
   border-radius: 4px;
@@ -229,14 +229,12 @@ h4,
 .activity-box {
   text-align: center;
 }
-.activity-box .box-icon {
-  margin-bottom: 24px;
-}
 .activity-box .box-icon i {
   font-size: 45px;
 }
 .activity-box h3 {
   font-size: 22px;
+  margin-bottom: 0;
 }
 
 /*** logo-box style *****/
@@ -333,6 +331,7 @@ h4,
   text-align: center;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.13) 0px 2px 15px;
 }
 .feature-box .box-icon {
   display: flex;
@@ -655,27 +654,26 @@ textarea.form-control {
 }
 .SH-about {
   position: relative;
-  background: #f7f5f2;
   padding: 100px 0 80px 0;
   font-size: 18px;
   line-height: 165%;
+  /*   &::before {
+         content: "";
+         display: block;
+         width: 100%;
+         height: 100%;
+         position: absolute;
+         top: 0;
+         left: 0;
+         background-image: url("../images/about-bg.jpeg");
+         background-size: contain;
+         opacity: .4;
+         transition: background .3s, border-radius .3s, opacity .3s;
+     }*/
 }
 .SH-about .container {
   position: relative;
   z-index: 1;
-}
-.SH-about::before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-image: url("../images/about-bg.jpeg");
-  background-size: contain;
-  opacity: 0.5;
-  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
 }
 .SH-about .SH-title {
   margin-bottom: 36px;
@@ -686,6 +684,23 @@ textarea.form-control {
 }
 .SH-about img {
   border-radius: 10px;
+}
+.SH-about .gallary-img {
+  width: 100%;
+  border-radius: 6px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+.SH-about .col-4:nth-child(1) .gallary-img {
+  height: 300px;
+}
+.SH-about .col-4:nth-child(2) .gallary-img {
+  height: 350px;
+}
+.SH-about .col-4:nth-child(3) .gallary-img {
+  height: 400px;
 }
 .SH-featured-projects {
   padding: 90px 0 60px;
@@ -701,6 +716,22 @@ textarea.form-control {
 }
 .SH-featured-projects .project-box.big-box {
   height: calc(100% - 48px);
+}
+.SH-featured-projects .project-box.soon-block .project-content {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+}
+.SH-featured-projects .project-box.soon-block::before {
+  background: rgba(29, 41, 62, 0.9);
+}
+.SH-featured-projects .project-box.soon-block:hover::before {
+  opacity: 1;
+  background: rgba(29, 41, 62, 0.95);
 }
 .SH-featured-projects .btn {
   width: 100%;
@@ -737,6 +768,7 @@ textarea.form-control {
 }
 .SH-activity h3 {
   font-size: 20px;
+  margin-bottom: 0;
 }
 .SH-activity#activity2 {
   padding: 60px 0;
@@ -751,6 +783,7 @@ textarea.form-control {
 .SH-activity#activity2 .activity-box {
   text-align: initial;
   display: flex;
+  align-items: center;
   margin-bottom: 30px;
 }
 .SH-activity#activity2 .activity-box .box-icon {
@@ -781,7 +814,7 @@ textarea.form-control {
   padding: 10px;
 }
 .SH-partners .logos-slider .logo-box {
-  box-shadow: rgba(99, 99, 99, 0.05) 0px 2px 8px 0px;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 16px 0px;
 }
 .SH-testimonials {
   padding: 80px 0;
@@ -900,7 +933,7 @@ textarea.form-control {
   background: #c39337;
   width: -moz-fit-content;
   width: fit-content;
-  margin: -70px auto 100px auto;
+  margin: -70px auto 60px auto;
 }
 .SH-about-inner .statistics ul {
   display: flex;
@@ -948,14 +981,27 @@ textarea.form-control {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.SH-features .container {
+  max-width: 1000px;
+}
 .SH-features .row {
   margin-top: 80px;
 }
+.SH-features .feature-box {
+  padding: 40px 20px;
+}
+.SH-features .feature-box h3 {
+  font-weight: 500;
+  line-height: 156%;
+  font-size: 21px;
+  margin-bottom: 0;
+}
 .SH-features .features-slider {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 .SH-features .features-slider .slick-slide {
   padding: 20px 10px;
+  height: 100%;
 }
 .SH-values {
   padding-bottom: 100px;
@@ -1339,6 +1385,12 @@ textarea.form-control {
 }
 .company-info span {
   display: block;
+}
+.company-info a {
+  color: #fff;
+}
+.company-info a:hover {
+  color: #425968;
 }
 
 footer {

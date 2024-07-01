@@ -23,7 +23,7 @@
                     <li><i class="fa-solid fa-location-dot"></i> جدة-طريق المدينة المنورة</li>
                     <li><i class="fa-regular fa-envelope"></i> info@shurfat.com</li>
                     <li><i class="fa-brands fa-whatsapp"></i> 531200151</li>
-                    <li><i class="fa-solid fa-phone-flip"></i> 92×××××××××</li>
+                    <li><i class="fa-solid fa-phone-flip"></i> 920026466</li>
                 </ul>
             </div>
             <div class="col-lg-3 col-sm-6 col-12">

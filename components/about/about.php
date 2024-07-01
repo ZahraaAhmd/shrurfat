@@ -1,6 +1,6 @@
 <!-- start section about -->
-<section class="SH-about-inner">
-    <div class="statistics text-center">
+<section class="SH-about-inner pb-0">
+    <div class="statistics text-center ">
         <ul>
             <li>
                 <h3><span class="count">500</span>+</h3>
@@ -16,7 +16,7 @@
             </li>
         </ul>
     </div>
-    <div class="container">
+    <div class="container d-none">
 
         <div class="row gx-lg-5">
             <div class="col-md-6 col-12">

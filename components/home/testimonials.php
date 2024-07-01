@@ -2,7 +2,7 @@
 <section class="SH-testimonials">
     <div class="container">
         <div class="text-center">
-            <div class="SH-title mb-4" data-aos="fade-up" data-aos-duration="500">اراء العملاء</div>
+            <div class="SH-title mb-4" data-aos="fade-up" data-aos-duration="500">نعتز بآراء عملائنا</div>
             <div class="SH-subtitle" data-aos="fade-up" data-aos-duration="700">
                 هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث
                 يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها

@@ -12,6 +12,12 @@
     span{
         display: block;
     }
+    a{
+        color: #fff;
+        &:hover{
+            color: $dark-blue;
+        }
+    }
 }
 
 footer{

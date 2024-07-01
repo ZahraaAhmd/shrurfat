@@ -1,47 +1,29 @@
 <!-- start section features -->
-<section class="SH-features">
+<section class="SH-features pt-0">
     <div class="container">
         <div class="text-center">
-            <div class="SH-title mb-4">لماذا تختار شرفات </div>
-            <div class="SH-subtitle">
-                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث
-                يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
-                التطبيق.
-            </div>
+            <div class="SH-title mb-0">قيمنا</div>
+            
         </div>
         <div class="features-slider">
             <div>
                 <div class="feature-box">
-                    <div class="box-icon"><i class="fa-solid fa-lightbulb"></i>
+                    <div class="box-icon">
+                    <i class="fa-regular fa-handshake"></i>
                     </div>
-                    <h3>عنوان هنا</h3>
-                    <div>
-                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
-                        العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف
-                        التى يولدها التطبيق.
-                    </div>
+                    <h3>نتقاسم النجاح مع شركائنا</h3>
                 </div>
             </div>
             <div>
                 <div class="feature-box">
-                    <div class="box-icon"><i class="fa-brands fa-connectdevelop"></i></div>
-                    <h3>عنوان هنا</h3>
-                    <div>
-                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
-                        العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف
-                        التى يولدها التطبيق.
-                    </div>
+                    <div class="box-icon"><i class="fa-solid fa-briefcase"></i></div>
+                    <h3>نتفانـى فــي العـمـــل</h3>
                 </div>
             </div>
             <div>
                 <div class="feature-box">
-                    <div class="box-icon"><i class="fa-solid fa-chart-simple"></i></div>
-                    <h3>عنوان هنا</h3>
-                    <div>
-                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
-                        العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف
-                        التى يولدها التطبيق.
-                    </div>
+                    <div class="box-icon"><i class="fa-solid fa-thumbs-up"></i></div>
+                    <h3>نـحـسـن فــي الـتـعامــل</h3>
                 </div>
             </div>
         </div>
