@@ -16,6 +16,7 @@ if(!isset($dark_header)){
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
     <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
+    
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.rtl.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>SHURFAT | Home</title>

@@ -4,7 +4,7 @@
         <div class="text-gray"><i class="fa-solid fa-location-dot"></i> 85-02 67 Ave, 11374, جده</div>
     </div>
     <div>
-        <a class="btn btn-secondary me-2">بروشور المشروع</a>
+        <a class="btn btn-secondary me-2">تحميل البرشور</a>
         <div class="dropdown d-inline-block">
             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
                 aria-expanded="false">

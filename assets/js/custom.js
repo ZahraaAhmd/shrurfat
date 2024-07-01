@@ -143,5 +143,25 @@ $(document).ready(function() {
             }
           );
       });
+
+    let first = 1;
+    let last = $(".book-section .right").length;
+   
+   $(".book-section .right-arrow").click(function(){
+    $(".book-section .left-arrow").removeClass("d-none") ;
+       first += 1;
+       if(first==last){
+        $(".book-section .right-arrow").addClass("d-none");
+    }
+    
+    });
+    $(".book-section .left-arrow").click(function(){
+        first -= 1;
+        if(first <= 0){
+            $(".book-section .left-arrow").addClass("d-none")
+        }
+        $(".book-section .right-arrow").removeClass("d-none");
+        
+     });
 });
 AOS.init(); 

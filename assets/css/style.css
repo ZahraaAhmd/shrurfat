@@ -18,6 +18,7 @@ body {
   color: #000;
   font-size: 16px;
   line-height: 150%;
+  overflow-x: hidden;
 }
 
 a {
@@ -1258,6 +1259,11 @@ textarea.form-control {
   padding: 30px;
   background: #fff;
 }
+@media (max-width: 575.98px) {
+  .SH-project-details .details-box {
+    padding: 20px 16px;
+  }
+}
 .SH-project-details .details-box:not(:last-child) {
   margin-bottom: 30px;
 }
@@ -1286,6 +1292,11 @@ textarea.form-control {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 4px;
+}
+@media (max-width: 575.98px) {
+  .SH-project-details .details-box#gallery img {
+    height: 120px;
+  }
 }
 .SH-location-map {
   margin-top: 125px;
@@ -1370,6 +1381,164 @@ textarea.form-control {
   display: block;
   font-weight: 600;
   color: #425968;
+}
+
+.book-section {
+  position: relative;
+}
+
+.book-section > .container {
+  height: 450px;
+  width: 100%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 0%;
+  margin-bottom: 30px;
+  padding: 0;
+  perspective: 1200px;
+  position: relative;
+}
+@media (max-width: 767.98px) {
+  .book-section > .container {
+    height: 350px;
+  }
+}
+@media (max-width: 575.98px) {
+  .book-section > .container {
+    height: 300px;
+  }
+}
+
+.container > .right {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  transition: 0.7s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+.book-section > .container > .right {
+  right: 0;
+  transform-origin: left;
+  border-radius: 0px 0 0 0px;
+}
+
+.right > figure.front,
+.right > figure.back {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  background-color: white;
+  overflow: hidden;
+  background-size: 100% 100%;
+}
+
+.right > figure.front {
+  background-position: right;
+  border-radius: 0 0px 0px 0;
+  box-shadow: 2px 2px 15px -2px rgba(0, 0, 0, 0.2);
+}
+
+.right > figure.back {
+  background-position: left;
+  border-radius: 0px 0 0 0px;
+  box-shadow: -2px 2px 15px -2px rgba(0, 0, 0, 0.2);
+  transform: rotateY(180deg);
+}
+
+.flip {
+  transform: rotateY(-180deg);
+}
+
+.flip::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0px 0px 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.book-section > button {
+  width: 45px;
+  height: 45px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #D6BC8A;
+  background-color: #D6BC8A;
+  color: #fff;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  position: absolute;
+  top: calc(50% - 20px);
+  z-index: 2;
+}
+@media (max-width: 767.98px) {
+  .book-section > button {
+    width: 35px;
+    height: 35px;
+  }
+}
+.book-section > button.left-arrow {
+  left: -4px;
+}
+.book-section > button.right-arrow {
+  right: -4px;
+}
+.book-section > button.flip {
+  transform: rotate(0);
+}
+
+.book-section > button:focus,
+.book-section > button:active {
+  outline: none;
+}
+
+.book-section > p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 24px;
+  margin: 15px 0;
+}
+
+.book-section > p > a {
+  text-decoration: none;
+  color: #010101;
+}
+
+.book-section > button:hover {
+  background-color: #425968;
+  color: #fff;
+}
+
+.front#cover,
+.back#back-cover {
+  background-color: #BEB9B1;
+  font-family: calibri;
+  text-align: left;
+  padding: 0 30px;
+  background-size: 100% 100%;
+}
+
+.front#cover h1 {
+  color: #fff;
+}
+
+.front#cover p {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
 }
 
 /***** footer style ****/

@@ -8,13 +8,14 @@
      <div class="container">
          <div class="mb-5">
              <h4 class="mb-4 page-title">
-                 تتميز مجمعاتنا بأربع ركائز أساسية، وهي:
-
+                تتميز مشاريعنا في شرفات : 
                  <span>
-                     المواقع الاستراتيجية، الجودة العالية في التصميم والتنفيذ، المرافق المتكاملة، وإثراء نمط الحياة
+                     المواقع الاستراتيجية، الجودة العالية في التصميم والتنفيذ، تكامل المرافق، وإثراء نمط الحياة
                  </span>
              </h4>
-             <div class="SH-subtitle">في شرفات تجد ما تبحث عنه واكثر. فقط القي نظره على بعض اعمالنا. </div>
+             <div class="SH-subtitle">
+             نبتكر ونطور وحدات سكنية فاخرة ومؤثثه بمعايير فندقية عالية قابلة للتشغيل اليومي .
+            </div>
          </div>
          <div class="projects-filter">
              <div>
@@ -65,11 +66,10 @@
                      <?php } ?>
                      <img src="assets/images/<?php echo $photos[$row];?>">
                      <div class="project-content">
-                         <h3>اسم المشروع</h3>
+                         <h3>شرفات البساتين</h3>
                          <ul class="mb-3">
-                             <li>فيلا</li>
                              <li>جده</li>
-                             <li>عدد الوحدات : <span>324</span></li>
+                             <li>حي البساتين</li>
                          </ul>
                          <div class="row g-3">
                              <div class="col">
@@ -86,11 +86,10 @@
                  <div class="project-box">
                      <img src="assets/images/<?php echo $photos[$counter];?>">
                      <div class="project-content">
-                         <h3>اسم المشروع</h3>
+                         <h3>شرفات البساتين</h3>
                          <ul class="mb-3">
-                             <li>فيلا</li>
                              <li>جده</li>
-                             <li>عدد الوحدات : <span>324</span></li>
+                             <li>حي البساتين</li>
                          </ul>
                          <div class="row">
                              <div class="col">

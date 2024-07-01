@@ -22,7 +22,7 @@
             <img src="assets/images/img8.webp">
         </div>
     </div>
-    <div class="project-thumb-slider">
+    <!--<div class="project-thumb-slider">
         <div>
             <img src="assets/images/img1.jpg">
         </div>
@@ -44,5 +44,5 @@
         <div>
             <img src="assets/images/img8.webp">
         </div>
-    </div>
+    </div> -->
 </div>

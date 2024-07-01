@@ -13,8 +13,7 @@
             <div class="col-lg-3 col-sm-6 col-12">
                 <div class="footer-title">صفحات مهمة</div>
                 <ul>
-                    <li><a href="#">شروط الاستخدام</a></li>
-                    <li><a href="#">سياسة الخصوصية</a></li>
+                    <li><a href="#">شروط الاستخدام & الخصوصية</a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-sm-6 col-12">
@@ -71,10 +70,14 @@
     <button class="btn btn-transparent toggle-form"></button>
     <a href="#" class="whatsapp-icon"><img src="assets/images/whatsapp-icon.png"></a>
 </div>
-<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.min.js">
 <script src="assets/js/popper.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="assets/js/slick.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/flip.js"></script>
 <script src="assets/js/custom.js"></script>
+
+
 </body>
+</html>

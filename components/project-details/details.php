@@ -9,9 +9,11 @@
                 </ol>
             </nav>
             <?php include "components/project-details/title.php";?>
-            <div class="row">
+            <?php include "components/project-details/book.php";?>
+            <?php //include "components/project-details/slider.php";?>
+            <div class="row pt-4">
                 <div class="col-lg right-side">
-                <?php include "components/project-details/slider.php";?>
+                
                 <?php include "components/project-details/overview.php";?>
                 <?php include "components/project-details/about.php";?>
                 <?php include "components/project-details/gallery.php";?>
